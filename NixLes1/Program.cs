@@ -8,13 +8,12 @@ namespace NixLes1
         {
             Console.WriteLine("Hello Human!");
         }
-        class Human
-        { 
+        
         public void Print(string str, int ag)
             {
                 Console.WriteLine($"Name: {str}  Age: {ag}");
             }
-        }
+        
 
     }
 }
