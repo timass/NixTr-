@@ -10,9 +10,7 @@ namespace NixLes1
         }
         class Human
         { 
-        public string Name { get; set; }
-        public int Age { get; set; }
-            public void Print(string str, int ag)
+        public void Print(string str, int ag)
             {
                 Console.WriteLine($"Name: {str}  Age: {ag}");
             }
